@@ -1,0 +1,108 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+}
+
+.one{
+    width: 100%;
+    height: 300px;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.two{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.two>:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.two>:nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.two>:nth-child(3){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.three{
+    height: 300px;
+}
+
+.three>:nth-child(1){
+    width: 80%;
+    height: 300px;
+    background-color: #666;
+    position: relative;
+    margin: 5px auto;
+}
+
+.inner{
+    position: absolute;
+    left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+
+    
+}
+
+.four{
+    height: 300px;
+    position: relative;
+}
+
+.four>:nth-child(1){
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+.between{
+    background-color: #666;
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+
+.five{
+    height: 500px;
+    position: relative;
+
+}
+
+.five>:nth-child(1){
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    background-color: #666;
+    width: 80%;
+    height: 90%;
+}
+
+.bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
